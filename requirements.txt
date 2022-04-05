@@ -1,0 +1,14 @@
+snakemake-minimal
+subread
+frictionless
+pyyaml
+pandas
+seaborn
+bioconductor-deseq2
+bioconductor-fgsea
+bioconductor-gseabase
+r-annotables
+r-ashr
+r-nmf
+r-tidyverse
+r-viridis

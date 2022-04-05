@@ -1,0 +1,35 @@
+id: 'mtorc3-rnaseq-raw-counts'
+title: "mTORC3 Knockout RNA-Seq Raw Counts"
+description: "Raw counts for mTORC3 knockout RNA-Seq experiment.\n Trimmed reads were mapped with HISAT2, followed by gene-level quantification using featureCounts."
+version: '0.1'
+sources:
+  - title: "Joe Nguyen"
+profile: 'bio-matrix-resource'
+processing: "raw"
+row_type: 'ensgene'
+column_type: 'sample_id'
+feature: 'genes'
+datatype: 'rnaseq'
+sample_types:
+  - "cell_line"
+species:
+  - 9606
+reference_genome: "grch38"
+contributors:
+  - title: "Joe Nguyen"
+    email: "joe.nguyen@nih.gov"
+    role: "principal investigator"
+  - title: "V. Keith Hughitt"
+    email: "keith.hughitt@nih.gov"
+    role: "packager"
+figures:
+  - title: "Sample Library Sizes"
+    path: "fig/raw-counts-library-sizes.png"
+  - title: "Sample PCA"
+    path: "fig/raw-counts-sample-pca.png"
+  - title: "Sample UMAP"
+    path: "fig/raw-counts-sample-umap.png"
+  - title: "Sample Correlation Heatmap (Pearson)"
+    path: "fig/raw-counts-sample-heatmap-pearson.png"
+  - title: "Sample Correlation Heatmap (Spearman)"
+    path: "fig/raw-counts-sample-heatmap-spearman.png"

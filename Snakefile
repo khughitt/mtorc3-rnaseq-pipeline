@@ -42,8 +42,7 @@ rule all:
 
 rule fgsea:
     input:
-        "/data/packages/mtorc3/deseq2/{contrast}.tsv",
-        "/data/packages/mtorc3/raw-counts/column-metadata.tsv"
+        "/data/packages/mtorc3/deseq2/{contrast}.tsv"
     output:
         "/data/packages/mtorc3/fgsea/{contrast}.tsv"
     params:
